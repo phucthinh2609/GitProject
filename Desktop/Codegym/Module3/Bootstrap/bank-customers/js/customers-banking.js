@@ -38,26 +38,26 @@ function renderCustomer() {
                 <td>${customer.address}</td>
                 <td>${customer.balance}</td>
                 <td>
-                    <a class="btn btn-outline-secondary" href="/bank-customers/html/update.html">
+                    <a class="btn btn-outline-secondary" href="/html/update.html" data-toggle="tooltip" data-placement="top" title="Edit">
                         <i class="fa-solid fa-pen-to-square" aria-hidden="true"></i>
                     </a>
                 </td>
                 <td>
-                    <a class="btn btn-outline-success" href="/bank-customers/html/deposit.html">
+                    <a class="btn btn-outline-success" href="/html/deposit.html">
                         <i class="fa fa-plus" aria-hidden="true"></i>
                     </a>
                 </td>
 
                 <td>
-                    <a class="btn btn-outline-warning" href="/bank-customers/html/withdraw.html">
+                    <a class="btn btn-outline-warning" href="/html/withdraw.html">
                         <i class="fa fa-minus" aria-hidden="true"></i>
                     </a>
                 </td>
                 <td>
-                    <a class="btn btn-outline-primary" href="/bank-customers/html/transfer.html">
+                    <a class="btn btn-outline-primary" href="/html/transfer.html">
                         <i class="fa fa-exchange" aria-hidden="true"></i>
                     </a></td>
-                <td><a class="btn btn-outline-danger" href="/bank-customers/html/suspension.html">
+                <td><a class="btn btn-outline-danger" href="/html/suspension.html">
                         <i class="fa fa-ban" aria-hidden="true"></i>
                     </a>
                 </td>
